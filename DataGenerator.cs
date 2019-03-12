@@ -26,7 +26,7 @@ namespace AngelPerez
             {
                 for (int j = 0; j < (ArrInt.Length - 1); j++)
                 {
-                    for (int k = 0; k < 4 - j; k++)
+                    for (int k = 0; k < ArrInt.Length - j; k++)
                     {
                         if (ArrInt[k] > ArrInt[k + 1])
                         {
@@ -64,7 +64,7 @@ namespace AngelPerez
             {
                 for (int j = 0; j < (ArrFlt.Length - 1); j++)
                 {
-                    for (int k = 0; k < 4 - j; k++)
+                    for (int k = 0; k < ArrFlt.Length - j; k++)
                     {
                         if (ArrFlt[k] > ArrFlt[k + 1])
                         {
@@ -138,7 +138,7 @@ namespace AngelPerez
             {
                 for (int j = 0; j < (IntList.Count - 1); j++)
                 {
-                    for (int k = 0; k < 4 - j; k++)
+                    for (int k = 0; k < IntList.Count - j; k++)
                     {
                         if (IntList[k] > IntList[k + 1])
                         {
@@ -177,7 +177,7 @@ namespace AngelPerez
             {
                 for (int j = 0; j < (FltList.Count - 1); j++)
                 {
-                    for (int k = 0; k < 4 - j; k++)
+                    for (int k = 0; k < FltList.Count - j; k++)
                     {
                         if (FltList[k] > FltList[k + 1])
                         {
@@ -258,7 +258,7 @@ namespace AngelPerez
             {
                 for (int j = 0; j < (ArrInt.Length - 1); j++)
                 {
-                    for (int k = 0; k < 4 - j; k++)
+                    for (int k = 0; k < ArrInt.Length - j; k++)
                     {
                         if (ArrInt[k] > ArrInt[k + 1])
                         {
@@ -298,7 +298,7 @@ namespace AngelPerez
             {
                 for (int j = 0; j < (ArrFlt.Length - 1); j++)
                 {
-                    for (int k = 0; k < 4 - j; k++)
+                    for (int k = 0; k < ArrFlt.Length - j; k++)
                     {
                         if (ArrFlt[k] > ArrFlt[k + 1])
                         {
@@ -386,7 +386,7 @@ namespace AngelPerez
             {
                 for (int j = 0; j < (ArrInt.Length - 1); j++)
                 {
-                    for (int k = 0; k < 4 - j; k++)
+                    for (int k = 0; k < ArrInt.Length - j; k++)
                     {
                         if (ArrInt[k] > ArrInt[k + 1])
                         {
@@ -426,7 +426,7 @@ namespace AngelPerez
             {
                 for (int j = 0; j < (ArrFlt.Length - 1); j++)
                 {
-                    for (int k = 0; k < 4 - j; k++)
+                    for (int k = 0; k < ArrFlt.Length - j; k++)
                     {
                         if (ArrFlt[k] > ArrFlt[k + 1])
                         {
@@ -512,7 +512,7 @@ namespace AngelPerez
             {
                 for (int j = 0; j < (ArrInt.Length - 1); j++)
                 {
-                    for (int k = 0; k < 4 - j; k++)
+                    for (int k = 0; k < ArrInt.Length - j; k++)
                     {
                         if (ArrInt[k] > ArrInt[k + 1])
                         {
@@ -553,7 +553,7 @@ namespace AngelPerez
             {
                 for (int j = 0; j < (ArrFlt.Length - 1); j++)
                 {
-                    for (int k = 0; k < 4 - j; k++)
+                    for (int k = 0; k < ArrFlt.Length - j; k++)
                     {
                         if (ArrFlt[k] > ArrFlt[k + 1])
                         {
