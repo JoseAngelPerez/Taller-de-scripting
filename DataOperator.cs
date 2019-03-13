@@ -8,16 +8,16 @@ namespace AngelPerez
 {
    public interface DataOperator
     {
-       bool SortAscending();
+       bool SortAscending(string tipo);
 
-       bool SortDescending();
+       bool SortDescending(string tipo);
 
-       bool Shuffle();
+       bool Shuffle(string tipo);
 
-       bool PerfectShuffle();
+       bool PerfectShuffle(string tipo);
 
-       bool RemoveOdds();
+       bool RemoveOdds(string tipo);
 
-       bool PemoveEven();
+       bool PemoveEven(string tipo);
     }
 }

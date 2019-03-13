@@ -8,32 +8,32 @@ namespace AngelPerez
 {
     public class ListDataOperator : DataOperator
     {
-        public bool SortAscending()
+        public bool SortAscending(string tipo)
         {
             return true;
         }
 
-        public bool SortDescending()
+        public bool SortDescending(string tipo)
         {
             return true;
         }
 
-         public bool Shuffle()
+         public bool Shuffle(string tipo)
         {
             return true;
         }
 
-         public bool PerfectShuffle()
+         public bool PerfectShuffle(string tipo)
         {
             return true;
         }
 
-         public bool RemoveOdds()
+         public bool RemoveOdds(string tipo)
         {
             return true;
         }
 
-         public bool PemoveEven()
+         public bool PemoveEven(string tipo)
         {
             return true;
         }

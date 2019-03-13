@@ -8,32 +8,49 @@ namespace AngelPerez
 {
     class StackDataOperator: DataOperator
     {
-        public bool SortAscending()
+        public bool SortAscending(string tipo)
+        {
+            tipo = tipo.ToLower();
+
+            if(tipo == "int")
+            {
+                
+
+            }
+
+            if(tipo == "float")
+            {
+
+            }
+
+            if (tipo == "fitem")
+            {
+
+            }
+            return true;
+        }
+
+        public bool SortDescending(string tipo)
         {
             return true;
         }
 
-        public bool SortDescending()
+        public bool Shuffle(string tipo)
         {
             return true;
         }
 
-        public bool Shuffle()
+        public bool PerfectShuffle(string tipo)
         {
             return true;
         }
 
-        public bool PerfectShuffle()
+        public bool RemoveOdds(string tipo)
         {
             return true;
         }
 
-        public bool RemoveOdds()
-        {
-            return true;
-        }
-
-        public bool PemoveEven()
+        public bool PemoveEven(string tipo)
         {
             return true;
         }

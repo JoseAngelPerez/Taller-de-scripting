@@ -22,7 +22,7 @@ namespace AngelPerez
                 ArrInt[i] = random.Next(0, maxNumber + 1);
             }
 
-            if (randomData)
+            if (!randomData)
             {
                 for (int j = 0; j < (ArrInt.Length - 1); j++)
                 {
@@ -60,7 +60,7 @@ namespace AngelPerez
             }
 
 
-            if (randomData)
+            if (!randomData)
             {
                 for (int j = 0; j < (ArrFlt.Length - 1); j++)
                 {
@@ -134,7 +134,7 @@ namespace AngelPerez
                 IntList.Add(random.Next(0, maxNumber + 1));
             }
 
-            if (randomData)
+            if (!randomData)
             {
                 for (int j = 0; j < (IntList.Count - 1); j++)
                 {
@@ -173,7 +173,7 @@ namespace AngelPerez
                 FltList.Add(((float)random.NextDouble()) * maxNumber);
             }
 
-            if (randomData)
+            if (!randomData)
             {
                 for (int j = 0; j < (FltList.Count - 1); j++)
                 {
@@ -254,7 +254,7 @@ namespace AngelPerez
                 ArrInt[i] = random.Next(0, maxNumber + 1);
             }
 
-            if (randomData)
+            if (!randomData)
             {
                 for (int j = 0; j < (ArrInt.Length - 1); j++)
                 {
@@ -294,7 +294,7 @@ namespace AngelPerez
             }
 
 
-            if (randomData)
+            if (!randomData)
             {
                 for (int j = 0; j < (ArrFlt.Length - 1); j++)
                 {
@@ -382,7 +382,7 @@ namespace AngelPerez
                 ArrInt[i] = random.Next(0, maxNumber + 1);
             }
 
-            if (randomData)
+            if (!randomData)
             {
                 for (int j = 0; j < (ArrInt.Length - 1); j++)
                 {
@@ -422,7 +422,7 @@ namespace AngelPerez
             }
 
 
-            if (randomData)
+            if (!randomData)
             {
                 for (int j = 0; j < (ArrFlt.Length - 1); j++)
                 {
@@ -508,7 +508,7 @@ namespace AngelPerez
                 ArrInt[i] = random.Next(0, maxNumber + 1);
             }
 
-            if (randomData)
+            if (!randomData)
             {
                 for (int j = 0; j < (ArrInt.Length - 1); j++)
                 {
@@ -549,7 +549,7 @@ namespace AngelPerez
             }
 
 
-            if (randomData)
+            if (!randomData)
             {
                 for (int j = 0; j < (ArrFlt.Length - 1); j++)
                 {

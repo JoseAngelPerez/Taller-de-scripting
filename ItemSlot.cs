@@ -13,6 +13,14 @@ namespace AngelPerez
 
         private Item item = new Item();
 
+        
+
+        public int Id
+        {
+            get { return item.Id; }
+            set { item.Id = value; }
+        }
+
         public int Count
         {
             get { return count; }
