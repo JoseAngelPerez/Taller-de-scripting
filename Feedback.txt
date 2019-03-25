@@ -1,0 +1,6 @@
+* El diseño del UML es muy bueno, pero no corresponde a la implementación entregada.
+* Por qué no se entregó un proyecto de VS para correr el código entregado?
+* Falta buena parte de la implementación de los demás métodos.
+
+
+NOTA: 2.0 / 5.0
